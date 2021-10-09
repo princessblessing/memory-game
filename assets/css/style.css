@@ -1,0 +1,297 @@
+body {
+    background-color: #f542e0;
+    font-family: 'Concert One', cursive;
+}
+
+h1 {
+    padding: 5px;
+    margin: 15px;
+    font-size: 3em;
+}
+
+@media (min-width: 575.98px) {
+    h1 {
+        padding: 10px;
+        margin: 30px;
+        font-size: 4em;
+    }
+}
+
+/*--------------------------------------------Google Fonts*/
+
+.concert-font {
+    font-family: 'Concert One', cursive;
+}
+
+
+/*----------------------------------------------Formatting*/
+
+.center {
+    text-align: center;
+
+}
+
+.centerNumber {
+    text-align: center;
+    line-height: 50px;
+}
+
+.centerText {
+    text-align: center;
+    line-height: 25px;
+}
+
+@media (min-width: 575.98px) {
+    .centerNumber {
+        text-align: center;
+        line-height: 80px;
+    }
+
+    .centerText {
+        text-align: center;
+        line-height: 30px;
+    }
+}
+
+
+.left {
+    text-align: left;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.one {
+    background-color: #FF0000;
+    border: black solid 5px;
+}
+
+.two {
+    background-color: #FF8000;
+    border: black solid 5px;
+}
+
+.three {
+    background-color: #FFFF00;
+    border: black solid 5px;
+}
+
+.four {
+    background-color: #0080FF;
+    border: black solid 5px;
+}
+
+.five {
+    background-color: #00FFFF;
+    border: black solid 5px;
+}
+
+.six {
+    background-color: #00FF00;
+    border: black solid 5px;
+}
+
+.seven {
+    background-color: #0000FF;
+    border: black solid 5px;
+}
+
+.eight {
+    background-color: #7F00FF;
+    border: black solid 5px;
+}
+
+.nine {
+    background-color: #FF007F;
+    border: black solid 5px;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white !important;
+    border: black solid 5px;
+}
+
+.redtext {
+    color: red;
+}
+
+.blacktext {
+    color: black;
+}
+
+.whiteText {
+    color: white;
+}
+
+/*------------------------------------------------------game parts*/
+
+.gameholder {
+    border: black solid 5px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10%;
+}
+
+.gamebox {
+    height: 70px;
+    width: 70px;
+    border-radius: 20%;
+    display: inline-block;
+    margin-top: 7px;
+}
+
+@media (min-width: 575.98px) {
+    .gameholder {
+        border: black solid 5px;
+        padding: 10px;
+        width: 400px;
+        border-radius: 10%;
+    }
+
+    .gamebox {
+        height: 100px;
+        width: 100px;
+        border-radius: 20%;
+        display: inline-block;
+        margin-top: 7px;
+    }
+}
+
+.gamebox:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+.control {
+    background-color: white;
+    height: 50px;
+    width: 80%;
+    border-radius: 10%;
+    display: inline-block;
+    margin-top: 10px;
+    border: black solid 5px;
+}
+
+.control:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+.scorebox {
+    height: 50px;
+    width: 100px;
+    border-radius: 20%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.smallcircle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 7px;
+    background-color: white;
+    color: black;
+    border: black solid 5px;
+}
+
+.smallcircle:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+.levelHolder {
+    display: inline-block;
+}
+
+.settingHolder {
+    display: block;
+}
+
+.settings {
+    position: relative;
+    top: -500px;
+    background: white;
+    border: black solid 5px;
+    width: 300px;
+}
+
+.instructions {
+    position: relative;
+    top: -500px;
+    background: white;
+    border: black solid 5px;
+    width: 300px;
+    text-align: center;
+}
+
+@media (min-width: 575.98px) {
+    .settings {
+        position: relative;
+        top: -500px;
+        background: white;
+        border: black solid 5px;
+        width: 400px;
+    }
+
+    .instructions {
+        position: relative;
+        top: -500px;
+        background: white;
+        border: black solid 5px;
+        width: 500px;
+        text-align: center;
+    }
+
+
+}
+
+.noDisplay {
+    display: none;
+}
+
+.speeddown {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+}
+
+.speedup {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.closeSettings {
+    margin: 10px;
+    border: none;
+    border: black solid 5px;
+    background-color: red;
+    border-radius: 10%;
+    text-align: right;
+    padding: 2.5px;
+}
+
+.closeSettings:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+
+}
